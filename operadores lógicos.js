@@ -1,16 +1,73 @@
 // Operadores Lógicos
 
-// Retorna sempre valores booleanos
+/*
 
-10 > 5 // Maior
-25 >= 25 // Maior ou igual
-5 < 42 // Menor
-28.90 <= 29 // Menor ou Igual
-30 === 30 // Igual
-1 !== 100 // Desigual
+ Operador E
 
-var notaDaJoana = 125;
-var joanaPassouNoDesafio = notaDaJoana >= 100;
+-------------------------------------------------------------
+|	Dia ensolarado	&&	Final de semana	|	Vou à praia		|
+-------------------------------------------------------------
+|		True		| 		True	 	|		True		|
+|	 	True		| 		False		|		False		|
+|	 	False		| 		True		|		False		|
+|	 	False		| 		False 		|		False		|
+-------------------------------------------------------------
+*/
 
-var notaDaMaria = 95;
-var mariaPassouNoDesafio = notaDaMaria >= 100;
+// Vou à praia
+var diaEnsolarado = true;
+var ehFinalDeSemana = true;
+var vouPraPraia = true;
+
+// Não vou à praia
+var diaEnsolarado = true;
+var ehFinalDeSemana = false;
+var vouPraPraia = false;
+
+// Não vou à praia
+var diaEnsolarado = false;
+var ehFinalDeSemana = true;
+var vouPraPraia = false;
+
+// Não vou à praia
+var diaEnsolarado = false;
+var ehFinalDeSemana = false;
+var vouPraPraia = false;
+
+
+
+/*
+
+ Operador OU
+
+-----------------------------------------------------------------
+|	Tem gasolina	||	Tenho grana pro gás	|	Vou à praia		|
+-----------------------------------------------------------------
+|		True		| 		True		 	|		True		|
+|	 	True		| 		False			|		True		|
+|	 	False		| 		True			|		True		|
+|	 	False		| 		False 			|		False		|
+-----------------------------------------------------------------
+
+*/
+
+// Vou à praia
+var carroTemGasolina = true;
+var tenhoGranaProGas = true;
+var vouPraPraia = true;
+
+// Vou à praia
+var carroTemGasolina = true;
+var tenhoGranaProGas = false;
+var vouPraPraia = true;
+
+// Vou à praia
+var carroTemGasolina = false;
+var tenhoGranaProGas = true;
+var vouPraPraia = true;
+
+// Não vou à praia
+var carroTemGasolina = false;
+var tenhoGranaProGas = false;
+var vouPraPraia = false;
+
