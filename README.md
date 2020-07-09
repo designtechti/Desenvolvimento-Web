@@ -2,10 +2,11 @@
 
 # Curso de Desenvolvimento Web | betrybe.com
 
-Neste curso aprenderemos as linguagens:
+Neste curso aprenderemos os seguintes tópicos:
 
 - HTML5;
 - CSS3;
 - JavaScript;
 - PHP;
-- MySql; 
+- MySql;
+- Lógica de programação;
